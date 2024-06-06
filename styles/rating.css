@@ -1,0 +1,43 @@
+.main {
+    color: #d3ebb5;
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .main__table {
+    border: 1px solid wheat;
+} */
+
+/*  th {
+    border: 1px solid wheat;
+    margin: -1px;
+} */
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid wheat;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  th {
+    text-transform: uppercase;
+  }
+    
+  th,
+  td {
+    border: 1px solid wheat;
+    padding: 8px 10px;
+    text-align: center;
+  }
+
+  .footer {
+    display: none;
+  }
+  

@@ -1,0 +1,157 @@
+/* cards */
+
+
+
+.main__title {
+    color: #d3ebb5;
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    /* margin-left: 45%; */
+    /* margin-left: calc(50% - 400px); */
+    /* margin-right: auto; */
+/*     margin: 5% auto; */
+    /* display: block; */
+}
+
+
+.main__card-blok__card {
+    color: #d3ebb5;
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main__card-blok__card__info__title {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 2%;
+}
+
+.main__card-blok__card__info_text {
+    font-size: 1.15rem;
+    margin-bottom: 2%;
+}
+
+.main__card-blok__card__logo {
+    display: none;
+}
+
+@media (max-width: 1199px) {
+
+
+    .main__card-blok__card {
+        width: 90%;
+        /* height: calc(99vw  * 0.15); */
+        margin: 15px auto 5px auto;
+        border: 1px solid whitesmoke;
+        border-radius: 15px;
+        padding: 2% 5%;
+        box-shadow: 0 8px 25px #d3ebb5;
+        /* margin: 10px;
+        margin-right: 5px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-image: url(../images/Card-fon.jpg);
+        box-shadow: 15px 10px 30px #8a252c; */
+    }
+    
+/*     .main__card:hover {
+        box-shadow: 0 0 0 #8a252c;
+    } */
+
+    .main__card-blok__card__info__title {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 641px) and (max-width: 1200px) {
+    .main__title {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+}
+@media (min-width: 1201px) {
+
+    .main__title {
+        margin-top: 3%;
+        margin-bottom: 1.2%;
+    }
+    
+    .main__card-blok {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .main__card-blok__card {
+        color:#51258a;
+    }
+
+    .main__card-blok__card {
+        width: calc(99vw / 4 - 6px);
+        height: calc(99vw / 4 * 1.15);
+        /* border: 1px solid whitesmoke; */
+        border-radius: 5%;
+        margin: 10px;
+        margin-right: 5px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-image: url(../images/Card-fon.jpg);
+        box-shadow: 15px 10px 30px #8a252c;
+    }
+    
+    .main__card-blok__card:hover {
+        box-shadow: 0 0 0 #8a252c;
+    }
+
+    .main__card-blok__card__info {
+        padding: 5% 3%;
+    }
+
+    .main__card-blok__card__info__title {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main__card-blok__card__logo {
+        display: block;
+    /*     background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative; */
+        /* background-image: url(../images/Sub-logo/IT.jpg); */
+        width: 100%;
+        height: 75%;
+        margin: 0;
+        /* border-radius: 50%; */
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+    }
+
+    .main__card-blok__card__logo:hover {
+        z-index: 2;
+        box-shadow: 15px 10px 15px #3a0b0f;
+    }
+
+}
+
+
+
+
+
+
+
+

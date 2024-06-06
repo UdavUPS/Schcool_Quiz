@@ -1,0 +1,35 @@
+.main__video {
+    margin-left: calc(100vw / 2 - 280px);
+    margin-top: 10px;
+}
+
+.main__video__iframe {
+    width: 560px; 
+    height: 315px;
+}
+
+.main__text {
+    color: #d3ebb5;
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px 5% 0 5%;
+}
+
+.main__text__title {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5625rem;
+}
+
+.main__text__inf {
+    font-size: 1.15rem;
+    text-indent: 3%;
+}
+
+.main {
+    margin-bottom: 5%;
+}

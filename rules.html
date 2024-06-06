@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+    </style>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/rules_sty.css">
+    <title>Школьные квизы</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__log-left"></div>
+        <div class="header__title">
+            <h1 class="header__title-top">Школьные межпредметные квизы</h1>
+            <h2 class="header__title-bottom">МБОУ "Средняя общеобразовательная школа №45 им. Маршала Советского Союза Г.К. Жукова" г. Калуги</h2>
+        </div>
+        <div class="header__log-right"></div>
+        <div class="burger-menu header__header-content__burger-menu"><div class="burger-center-line"></div></div>
+    </header>
+    <nav class="menu visually-hidden_m">
+    <ul class="menu__list">
+      <li class="menu__list__item"><a href="index.html" class="menu__list__item_a">Главная</a></li>
+      <li class="menu__list__item"><a href="rules.html" class="menu__list__item_a">Общие правила квиза</a></li>
+      <li class="menu__list__item"><a href="rating.html" class="menu__list__item_a">Рейтинг постоянных команд</a></li>
+    </ul>
+  </nav>
+    <main class="main">
+      <div class="main__video">
+        <iframe class="main__video__iframe"  src="https://www.youtube.com/embed/Tr_Zuyck00A?si=PJogzbAwvQAGxxIj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="main__text">
+        <h3 class="main__text__title">Общие правила школьного квиза</h3>
+        <p class="main__text__inf">Уважаемые учителя и учащиеся! В этот четверг 25.04.24 в 411з после 5 урока будет проводиться первый предметный квиз (ИТ-квиз) по информатике! Приглашаются команды учеников с 5 по 11 классы и учителей (в т.ч. из началки). В команде должно быть от 2 до 5 человек. Так же в команде участники должны быть из одной параллели. Призы:
+          1 место в общем зачете – 5 по информатике как за индивидуальный проект (каждому участнику)
+          2 место в общем зачете – 5 по информатике как за практическую работу (каждому участнику)
+          3 место в общем зачете – 4 по информатике как за практическую работу (каждому участнику с правом отказа от оценки)
+          1 место в параллели – 5 по информатике как за ответ на уроке (каждому участнику)
+          2 место в общем зачете – 4 по информатике как как за ответ на уроке (каждому участнику с правом отказа от оценки)
+          Торопитесь зарегистрироваться, мест в кабинете может не хватить! Команду регистрирует капитан. </p>
+      </div>
+        
+    </main>
+
+<footer class="footer"></footer>
+
+<script>
+    const menuBut = document.querySelector('.header__header-content__burger-menu');
+    const menu = document.querySelector('.menu');
+    let status = true;
+
+
+    menuBut.addEventListener('click', () => {
+      if (('visually-hidden_m' in menu.classList) || (status)) {
+        menu.classList.remove('visually-hidden_m');
+        status = false;
+      } else {
+        menu.classList.add('visually-hidden_m');
+        status = true;
+      }
+    })
+  </script>
+    
+</body>
+</html>
