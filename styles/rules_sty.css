@@ -1,3 +1,7 @@
+.main {
+    text-shadow: 0 3px 10px black;
+}
+
 .main__video {
     margin-left: calc(100vw / 2 - 280px);
     margin-top: 10px;

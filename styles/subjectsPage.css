@@ -1,3 +1,7 @@
+.main {
+    text-shadow: 0 3px 10px black;
+}
+
 .main__title {
     color: #d3ebb5;
     font-family: "LXGW WenKai Mono TC", monospace;
