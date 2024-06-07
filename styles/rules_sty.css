@@ -3,13 +3,17 @@
 }
 
 .main__video {
-    margin-left: calc(100vw / 2 - 280px);
+    margin-left: 2%;
+    margin-right: 2%;
     margin-top: 10px;
 }
 
 .main__video__iframe {
-    width: 560px; 
-    height: 315px;
+/*     width: 560px; 
+    height: 315px; */
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .main__text {
@@ -36,4 +40,12 @@
 
 .main {
     margin-bottom: 5%;
+}
+
+@media (min-width: 641px) {
+    .main__video__iframe {
+        margin-left: calc(100vw / 2 - 280px);
+        width: 560px; 
+        height: 315px;
+    }
 }
