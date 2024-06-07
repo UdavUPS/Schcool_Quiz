@@ -1,5 +1,12 @@
 /* cards */
 
+a.main__card-blok__card__info__title__a:active, /* активная/посещенная ссылка */
+a.rmain__card-blok__card__info__title__a:hover,  /* при наведении */
+a.main__card-blok__card__info__title__a {
+  text-decoration: underline;
+  color: #d3ebb5;
+}
+
 .main {
     text-shadow: 0 3px 10px black;
 }
@@ -97,6 +104,12 @@
         flex-wrap: wrap;
         justify-content: space-around;
         text-shadow: none;
+    }
+
+    a.main__card-blok__card__info__title__a:active, /* активная/посещенная ссылка */
+    a.rmain__card-blok__card__info__title__a:hover,  /* при наведении */
+    a.main__card-blok__card__info__title__a {
+        color: #51258a;
     }
 
     .main__card-blok__card {
