@@ -105,6 +105,13 @@ legend {
 
 /* Верстка */
 
+a.reg-form:active, /* активная/посещенная ссылка */
+a.reg-form:hover,  /* при наведении */
+a.reg-form {
+  text-decoration: underline;
+  color: #d3ebb5;
+}
+
 body {
     background: #51258a;
 }

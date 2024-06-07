@@ -1,0 +1,117 @@
+.main__title {
+    color: #d3ebb5;
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+.main__logo-quiz {
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 0;
+    border-radius: 5%;
+}
+
+.main__info {
+    color: #d3ebb5;
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.15rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%; 
+}
+.main__info__div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main__info__div__p {
+    text-align: center;
+}
+
+.main__info__div__p:nth-child(1) {
+    text-decoration: underline;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+}
+
+a.reg-form:active, /* активная/посещенная ссылка */
+a.reg-form:hover,  /* при наведении */
+a.reg-form{
+    text-decoration: none;
+}
+
+.reg-button {
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 5%;
+    border-radius: 25px;
+    text-align: center;
+    color: #d3ebb5;
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.15rem;
+    /* border: 1px solid whitesmoke; */
+    background-color: #258a83;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: 0 8px 25px #d3ebb5;
+}
+
+@media (min-width: 641px) and (max-width: 1200px) {
+    .main__title {
+        margin-top: 0;
+    }
+
+    .main__logo-quiz {
+        margin-left: 35%;
+        width: 30%;
+    }
+
+    .main__info {
+        margin-left: 5%;
+        margin-right: 5%; 
+    }
+
+    .reg-button {
+        margin-left: 35%;
+        width: 30%;
+    }
+}
+
+@media (min-width: 1201px) {
+    .main__title {
+        margin-top: 0;
+    }
+
+    .main__logo-quiz {
+        margin-left: 40%;
+        width: 20%;
+    }
+
+    .main__info {
+        margin-left: 20%;
+        margin-right: 20%; 
+    }
+
+    .reg-button {
+        margin-left: 40%;
+        width: 20%;
+    }
+
+    .reg-button:hover {
+        box-shadow: 0 3px 10px #000000;
+    }
+}
