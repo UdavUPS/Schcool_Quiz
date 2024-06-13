@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/script.js"></script>
     <style>
     @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
     </style>
@@ -36,6 +37,9 @@
     <main class="main">
       <section class="main__title">Квизы 1 четверти</section>
       <section class="main__card-blok">
+        <!-- 
+          ПРИМЕР ОПИСАНИЯ ЕАРТОЧКИ В HTML
+
         <div class="main__card-blok__card">
           <img class="main__card-blok__card__logo" src="images/Sub-logo/IT.jpg" alt="Предметный квиз">
           <div class="main__card-blok__card__info">
@@ -44,69 +48,19 @@
           </div>
         </div>
 
-        <div class="main__card-blok__card">
-          <img class="main__card-blok__card__logo" src="images/Sub-logo/istor.jpg" alt="Предметный квиз">
-          <div class="main__card-blok__card__info">
-              <h3 class="main__card-blok__card__info__title"><a href="pagesOFsubject/#" class="main__card-blok__card__info__title__a">История</a><p>12.09.24</p></h3>
-              <p class="main__card-blok__card__info_text">Ссылка на регистрацию:</p>
-          </div>
-       </div>
-
-       <div class="main__card-blok__card">
-        <img class="main__card-blok__card__logo" src="images/Sub-logo/geom.jpg" alt="Предметный квиз">
-        <div class="main__card-blok__card__info">
-            <h3 class="main__card-blok__card__info__title"><a href="pagesOFsubject/#" class="main__card-blok__card__info__title__a">Геометрия (профиль)</a><p>19.09.24</p></h3>
-            <p class="main__card-blok__card__info_text">Ссылка на регистрацию:</p>
-        </div>
-       </div>
-
-       <div class="main__card-blok__card">
-        <img class="main__card-blok__card__logo" src="images/Sub-logo/#" alt="Предметный квиз">
-        <div class="main__card-blok__card__info">
-            <h3 class="main__card-blok__card__info__title"><a href="pagesOFsubject/#" class="main__card-blok__card__info__title__a">Литература</a><p>26.09.24</p></h3>
-            <p class="main__card-blok__card__info_text">Ссылка на регистрацию:</p>
-        </div>
-       </div>
-
-
-       <div class="main__card-blok__card">
-        <img class="main__card-blok__card__logo" src="images/Sub-logo/#" alt="Предметный квиз">
-        <div class="main__card-blok__card__info">
-            <h3 class="main__card-blok__card__info__title"><a href="pagesOFsubject/#" class="main__card-blok__card__info__title__a">Биологи</a><p>03.10.24</p></h3>
-            <p class="main__card-blok__card__info_text">Ссылка на регистрацию:</p>
-        </div>
-       </div>
-
-
-       <div class="main__card-blok__card">
-        <img class="main__card-blok__card__logo" src="images/Sub-logo/#" alt="Предметный квиз">
-        <div class="main__card-blok__card__info">
-            <h3 class="main__card-blok__card__info__title"><a href="pagesOFsubject/#" class="main__card-blok__card__info__title__a">Английский язык</a><p>10.10.24</p></h3>
-            <p class="main__card-blok__card__info_text">Ссылка на регистрацию:</p>
-        </div>
-       </div>
-
-
-       <div class="main__card-blok__card">
-        <img class="main__card-blok__card__logo" src="images/Sub-logo/Himiya.jpeg" alt="Предметный квиз">
-        <div class="main__card-blok__card__info">
-            <h3 class="main__card-blok__card__info__title"><a href="pagesOFsubject/#" class="main__card-blok__card__info__title__a">Химия</a><p>17.10.24</p></h3>
-            <p class="main__card-blok__card__info_text">Ссылка на регистрацию:</p>
-        </div>
-       </div>
-
-
-       <div class="main__card-blok__card">
-        <img class="main__card-blok__card__logo" src="images/log-right.jpg" alt="Предметный квиз">
-        <div class="main__card-blok__card__info">
-            <h3 class="main__card-blok__card__info__title"><a href="pagesOFsubject/#" class="main__card-blok__card__info__title__a">Финальный квиз за 1 четверть</a><p>24.10.24</p></h3>
-            <p class="main__card-blok__card__info_text">Ссылка на регистрацию:</p>
-        </div>
-      </div>
+         -->
 
      </section>
-
-      
+     <script>
+        addNewCard('IT.jpg', 'Информатика', '05.09.24', 'it', 'https://forms.gle/mJUjcacEAzdvurBn6');
+        addNewCard('istor.jpg', 'История', '12.09.24', '#', '#');
+        addNewCard('geom.jpg', 'ГЕОМЕТРИЯ (ПРОФИЛЬ)', '19.09.24', '#', '#');
+        addNewCard('', 'ЛИТЕРАТУРА', '26.09.24', '#', '#');
+        addNewCard('', 'Биология', '03.10.24', '#', '#');
+        addNewCard('', 'Английский язык', '10.10.24', '#', '#');
+        addNewCard('Himiya.jpeg', 'Химия', '17.10.24', '#', '#');
+        addNewCard('quiz-log.jpg', 'ФИНАЛЬНЫЙ КВИЗ ЗА 1 ЧЕТВЕРТЬ', '24.10.24', '#', '#');
+     </script>
 
     </main>
 
