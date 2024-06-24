@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+    </style>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/subjectsPage.css">
+    <title>Школьные квизы</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__log-left"></div>
+        <div class="header__title">
+            <h1 class="header__title-top">Школьные межпредметные квизы</h1>
+            <h2 class="header__title-bottom">МБОУ "Средняя общеобразовательная школа №45 им. Маршала Советского Союза Г.К. Жукова" г. Калуги</h2>
+        </div>
+        <div class="header__log-right"></div>
+        <div class="burger-menu header__header-content__burger-menu"><div class="burger-center-line"></div></div>
+    </header>
+    <nav class="menu visually-hidden_m">
+    <ul class="menu__list">
+      <li class="menu__list__item"><a href="../index.html" class="menu__list__item_a">Главная</a></li>
+      <li class="menu__list__item"><a href="../rules.html" class="menu__list__item_a">Общие правила квиза</a></li>
+      <li class="menu__list__item"><a href="../rating.html" class="menu__list__item_a">Рейтинг постоянных команд</a></li>
+    </ul>
+  </nav>
+    <main class="main">
+      <section class="main__title">История</section>
+      <img src="../images/Sub-logo/istor.jpg" alt="Картинка квиза" class="main__logo-quiz">
+      <section class="main__info">
+        <div class="main__info__div">
+          <p class="main__info__div__p">Руководитель Квиза</p>
+          <p class="main__info__div__p">Федотов И.А.</p>
+        </div>
+        <div class="main__info__div">
+          <p class="main__info__div__p">Дата проведения</p>
+          <p class="main__info__div__p">12.09.24</p>
+        </div>
+        <div class="main__info__div">
+          <p class="main__info__div__p">Место проведения</p>
+          <p class="main__info__div__p">411з</p>
+        </div>
+        <div class="main__info__div">
+          <p class="main__info__div__p">Время начала</p>
+          <p class="main__info__div__p">12:10 (после 5 урока)</p>
+        </div>
+        <div class="main__info__div">
+          <p class="main__info__div__p">Параллели</p>
+          <p class="main__info__div__p">(уточняются)</p>
+        </div>
+        <div class="main__info__div">
+          <p class="main__info__div__p">Планируемые призы</p>
+          <p class="main__info__div__p">Грамоты</p>
+        </div>
+      </section>
+      <a href="https://forms.gle/mJUjcacEAzdvurBn6" class="reg-form"><div class="reg-button">Регистрация</div></a>
+        
+    </main>
+
+<footer class="footer"></footer>
+
+<script>
+    const menuBut = document.querySelector('.header__header-content__burger-menu');
+    const menu = document.querySelector('.menu');
+    let status = true;
+
+
+    menuBut.addEventListener('click', () => {
+      if (('visually-hidden_m' in menu.classList) || (status)) {
+        menu.classList.remove('visually-hidden_m');
+        status = false;
+      } else {
+        menu.classList.add('visually-hidden_m');
+        status = true;
+      }
+    })
+  </script>
+    
+</body>
+</html>
